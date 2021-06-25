@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <Button
+        android:id="@+id/btnPrincipalIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Ingresar"
+        app:backgroundTint="@color/azul_claro"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrincipalSalir"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="5dp"
+        android:text="www.girasolar.com.ar"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrincipalIngresar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPrincipalLlamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Llamar"
+        app:backgroundTint="@color/azul_claro"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="5dp"
+        android:text="02954-15551766"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrincipalLlamar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="315dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/verde" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginBottom="10dp"
+        android:text="GiraSolAR"
+        android:textColor="@color/verde_amarillo"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="5dp"
+        android:text="nairanparody@gmail.com"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrincipalEnviar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPrincipalEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Enviar"
+        app:backgroundTint="@color/azul_claro"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPrincipalSalir"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Salir"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
