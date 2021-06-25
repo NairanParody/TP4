@@ -58,7 +58,7 @@ public class Principal extends AppCompatActivity {
         btnPrincipalIngresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri webpage = Uri.parse("https://github.com/");
+                Uri webpage = Uri.parse("https://github.com/NairanParody/TP4");
                 Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
                 if (intent.resolveActivity(getPackageManager()) != null) {
                     startActivity(intent);
