@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btnMainRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent registrar= new Intent("android.intent.action.REGISTRO");
+                Intent registrar= new Intent(MainActivity.this, Registro.class);
                 startActivity(registrar);
             }
         });
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 String usuario = edtMainEmail.getText().toString();
                 String clave = edtMainClave.getText().toString();
                 if(usuario.equals("nairan@ites") && clave.equals("1234")){
-                    Intent principal= new Intent("android.intent.action.PRINCIPAL" );
+                    Intent principal= new Intent(MainActivity.this, Principal.class);
                     startActivity(principal);
                     edtMainEmail.setText(" ");
                     edtMainClave.setText(" ");
