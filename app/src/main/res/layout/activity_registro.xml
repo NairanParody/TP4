@@ -7,6 +7,19 @@
     tools:context=".Registro">
 
     <EditText
+        android:id="@+id/edtRegistroNombre"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Nombre Completo"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/edtRegistroUsuario"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
         android:id="@+id/edtRegistroCorreo"
         android:layout_width="310dp"
         android:layout_height="45dp"
@@ -58,18 +71,6 @@
         app:layout_constraintBottom_toTopOf="@+id/edtRegistroCorreo"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/edtRegistroNombre"
-        android:layout_width="310dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginBottom="12dp"
-        android:ems="10"
-        android:hint="Nombre Completo"
-        android:inputType="textPersonName"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/edtRegistroUsuario"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnRegistroGuardar"

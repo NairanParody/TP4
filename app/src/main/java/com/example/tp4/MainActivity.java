@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
                 if(usuario.equals("nairan@ites") && clave.equals("1234")){
                     Intent principal= new Intent(MainActivity.this, Principal.class);
                     startActivity(principal);
-                    edtMainEmail.setText(" ");
-                    edtMainClave.setText(" ");
+                    edtMainEmail.setText("");
+                    edtMainClave.setText("");
                 }else{
                     Toast.makeText(MainActivity.this, "Usuario o Contraseña INCORRECTA", Toast.LENGTH_SHORT).show();
                 }
